@@ -71,7 +71,9 @@ function flipCard() {
 
 // Check if two cards match
 function checkForMatch() {
-  const isMatch = firstCard.innerHTML === secondCard.innerHTML;
+  const isMatch =
+    firstCard.querySelector('.front-face').textContent ===
+    secondCard.querySelector('.front-face').textContent;
 
   if (isMatch) {
     disableCards();

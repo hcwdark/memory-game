@@ -54,7 +54,7 @@ button:hover {
 .card {
   width: 100px;
   height: 100px;
-  background-color: #333;
+  background-color: #007bff;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
@@ -83,11 +83,11 @@ button:hover {
 .card .back-face {
   background-color: #007bff;
   color: #fff;
-  transform: rotateY(180deg);
 }
 
 .card .front-face {
   background-color: #fff;
   color: #333;
   border: 2px solid #007bff;
+  transform: rotateY(180deg);
 }
